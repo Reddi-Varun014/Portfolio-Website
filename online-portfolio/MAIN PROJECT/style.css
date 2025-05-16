@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #efefef;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #000000;
+
+  .about-section{
+    color: #ffffff;
+  }
+
+  .projects-section{
+    color: #ffffff;
+  }
+  footer {
+  background-color: #06488f;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.details{
+    color: #ffffff;
+  }
+  .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #06488f;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: rgb(241, 241, 241);
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.contact-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 5rem;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffffff; 
+}
+
+
+/* Button */
+#darkModeToggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* Intro Section */
+.intro {
+  padding: 4rem 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.profile-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  padding: 0.127rem;
+  border: 2px solid #0e4d92;
+  border-radius: 20px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f9f9f9;
+}
+
+.profile-img {
+  width: 200px;
+  height: auto;
+  border-radius: 11.25px;
+}
+/* Contact */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.contact-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+form {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #df0c0c;
+}
